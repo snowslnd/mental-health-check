@@ -1,0 +1,1329 @@
+<!doctype html>
+<html lang="en-US" itemscope itemtype="http://schema.org/LocalBusiness">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="">
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <title>Tyho</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- DataTable CDN -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.7/css/responsive.dataTables.min.css">
+    <!-- Int Tel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css" integrity="sha512-yye/u0ehQsrVrfSd6biT17t39Rg9kNc+vENcCXZuMz2a+LWFGvXUnYuWUW6pbfYj1jcBb/C39UZw2ciQvwDDvg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Select2 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+
+    <link rel="stylesheet" href="cssProgress.css">
+
+</head>
+
+<body>
+
+    <!-- Header Code Start -->
+
+    <header class="siteHeader siteHeaderFull">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#" title="PriceLabs">
+                    <img src="assets/img/logo.svg" alt="Tyho" title="Tyho" />
+                </a>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Therapists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Coaches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EAP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btns_header">
+                    <a href="#" class="btn btn-primary">SIGN IN</a>
+                    <a href="#" class="btn btn-primary">SIGN UP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+            <div class="row headerBanner align-items-center">
+                <div class="col-6">
+                    <h1>Your Emotional Health Check</h1>
+                </div>
+                <div class="col-6 text-end">
+                    <img src="assets/img/intake_form.svg" alt="image" title="" />
+                </div>
+            </div>
+            <nav class="text-center breadcrumb-align" style="--bs-breadcrumb-divider: '-';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Psychological Self-Assessment</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Code End -->
+    <!-- Content Code Start -->
+    <article>
+        <div class="container kesslerScale">
+            <div class="textKessler">
+                <p>This self-assessment is a simple measure of psychological distress. The test gives you an indication of how you have been doing lately, compared to the general population.</p>
+                <p>Once you have completed it, you will receive a score and some recommendations.</p>
+                <p> Your test results are not stored on the platform, and are certainly not accessible by anyone, including your TYHO Therapist (if you are a client with us). Please remember that this test does not give a diagnosis - only a psychiatrist or
+                    psychologist can do so. It is intended to help you reflect on your feelings over the past 4 weeks.</p>
+            </div>
+            <div class="boxForm  formOutcome">
+                <div class="maintimerAnimation">
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>01</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel tired out for no good reason?</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id= "one" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="one" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime" name="fav_language" value="All_of_the_time"> <span class="dot"> </span> <label class="form-check-label" for="allTime">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime" name="fav_language" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime" name="fav_language" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime" name="fav_language" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="0" class="skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress1">
+                                  <div class="cssProgress-bar" data-percent="10">
+                                    <span class="cssProgress-label">10%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>02</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel nervous?</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id= "two" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id= "two" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime1" name="fav_language1" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime1">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime1" name="fav_language1" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime1">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language1" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime1">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime1" name="fav_language1" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime1">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime1" name="fav_language1" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime1">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <a href="#" id="1" class="skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress2">
+                                  <div class="cssProgress-bar" data-percent="20">
+                                    <span class="cssProgress-label">20%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>03</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel so nervous that nothing could calm you down?
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="three" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="three" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language2" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime2">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language2" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime2">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language2" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime2">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language2" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime2">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime3" name="fav_language2" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime3">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="2" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress3">
+                                  <div class="cssProgress-bar" data-percent="30">
+                                    <span class="cssProgress-label">30%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>04</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel hopeless? </h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="four" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul  id="four" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language3" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime3">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language3" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime3">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language3" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime3">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language3" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime3">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime2" name="fav_language3" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime3">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="3" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress4">
+                                  <div class="cssProgress-bar" data-percent="40">
+                                    <span class="cssProgress-label">40%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>05</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel restless or fidgety? </h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="five" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="five" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language4" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime4">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language4" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime4">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language4" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime4">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language4" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime4">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime2" name="fav_language4" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime4">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="4" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress5">
+                                  <div class="cssProgress-bar" data-percent="50">
+                                    <span class="cssProgress-label">50%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>06</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel so restless you could not sit still?</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="six" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="six" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language5" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime5">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language5" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime5">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language5" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime5">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language5" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime5">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime6" name="fav_language5" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime6">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="5" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress6">
+                                  <div class="cssProgress-bar" data-percent="60">
+                                    <span class="cssProgress-label">60%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>07</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel depressed?</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="seven" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="seven" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language6" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime6">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language6" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime6">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language6" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime6">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language6" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime6">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime2" name="fav_language6" value="None_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="noneTime6">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="6" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress7">
+                                  <div class="cssProgress-bar" data-percent="70">
+                                    <span class="cssProgress-label">70%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>08</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel that everything was an effort?</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="eight" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="eight" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language7" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime7">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language7" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime7">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language7" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime7">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language7" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime7">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime2" name="fav_language7" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime7">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="7" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress8">
+                                  <div class="cssProgress-bar" data-percent="80">
+                                    <span class="cssProgress-label">80%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>09</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel so sad that nothing could cheer you up?</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="nine" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="nine" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language8" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime8">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language8" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime8">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language8" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime8">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language8" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime8">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime2" name="fav_language8" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime8">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="8" class="  skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress9">
+                                  <div class="cssProgress-bar" data-percent="90">
+                                    <span class="cssProgress-label">90%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="maintimerAnimation-inner">
+                            <div class="row quesContentBox-outer">
+                                <div class="col-md-8 quesContentBox">
+                                    <div class="quesNumber">
+                                        <h2>10</h2>
+                                    </div>
+                                    <div class="quesContent">
+                                        <p>In the past 4 weeks,</p>
+                                        <h3>about how often did you feel worthless? </h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clockImage">
+                                    <div class="clockImage-inner">
+                                        <img src="assets/img/clockImage.svg" />
+                                        <ul id="ten" class="timerAnimation">
+                                            <li class="timerAnimation1"><img src="assets/img/clockImage-1.svg" /></li>
+                                            <li class="timerAnimation2"><img src="assets/img/clockImage-2.svg" /></li>
+                                            <li class="timerAnimation3"><img src="assets/img/clockImage-3.svg" /></li>
+                                            <li class="timerAnimation4"><img src="assets/img/clockImage-4.svg" /></li>
+                                            <li class="timerAnimation5"><img src="assets/img/clockImage-5.svg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row selectTime-outer">
+                                <ul id="ten" class="selectTime">
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="allTime2" name="fav_language9" value="All_of_the_time"> <span class="dot"></span> <label class="form-check-label" for="allTime9">All of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="mostTime2" name="fav_language9" value="Most_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="mostTime9">Most of the time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="someTime" name="fav_language9" value="Some_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="someTime9">Some of the time</label>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="aLitileTime2" name="fav_language9" value="ALitile_of_the_time"> <span class="dot1"></span> <label class="form-check-label" for="aLitileTime9">A little of the
+                                                time</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" id="noneTime2" name="fav_language9" value="None_of_the_time"> <span class="dot2"></span> <label class="form-check-label" for="noneTime9">None of the time</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" id="9" class="skipBth">Skip</a>
+                            <div class="cssProgress">
+                                <div class="progress10">
+                                  <div class="cssProgress-bar" data-percent="100">
+                                    <span class="cssProgress-label">100%</span> 
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="center quesNum">
+                            <h2>Self-Assessment Results</h2>
+                        </div>
+                        <div>         
+                            <!-- <h3 class="center">Thank you for completing the K10 Assement, your score is <span id="totalScore">0</span>. </h3> -->
+                            <P class= "center"id="showText"> </P>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+            </div>
+        </div>
+
+        </div>
+
+    </article>
+
+    <!-- Content Code End -->
+
+    <!-- Footer Code Start -->
+
+    <footer>
+        <div class="container">
+            <div class="boxSecure">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <p class="m-0">If you are in crisis, or another person may be in danger, do not use this site.
+                            <br /> Please refer to these <a href="#" class="textLink" title="resources">resources</a> instead.</p>
+                    </div>
+                    <div class="col-md-5 text-end">
+                        <ul class="listLogos">
+                            <li><img src="assets/img/logo-aws.png" alt="" title="" /></li>
+                            <li><img src="assets/img/logo-stripe.png" alt="" title="" /></li>
+                            <li><img src="assets/img/logo-sslsecured.png" alt="" title="" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row rowFooterContent">
+                <div class="col-md-3 text-center">
+                    <div class="footerLogo">
+                        <a href="#"><img src="assets/img/logo.svg" alt="" title="" /></a>
+                    </div>
+                    <h5>Social Links</h5>
+                    <ul class="listSocialMedia">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Quick Links</h5>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="footerMenu">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Therapists</a></li>
+                                <li><a href="#">Psychologists</a></li>
+                                <li><a href="#">Coaches</a></li>
+                                <li><a href="#">issues</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="footerMenu">
+                                <li><a href="#">EAP</a></li>
+                                <li><a href="#">Anger management</a></li>
+                                <li><a href="#">Depression counselling</a></li>
+                                <li><a href="#">Grief counselling</a></li>
+                                <li><a href="#">Marriage counselling</a></li>
+                                <li><a href="#">Couples counselling</a></li>
+                                <li><a href="#">Crisis resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footerMenu">
+                                <li><a href="#">Our blog </a></li>
+                                <li><a href="#">Join us</a></li>
+                                <li><a href="#">Upcoming events</a></li>
+                                <li><a href="#">Previous events</a></li>
+                                <li><a href="#">Crisis resources</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <ul class="listContactDetail">
+                        <li>
+                            <i class="fas fa-envelope-open"></i>
+                            <a href="#">contact@talkyourheartout.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="#">+65 6502 2840 / 9831 0005 </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <strong>Counselling hours</strong>
+                            <p>Mon - Sun, 7.00 am - 11.00 pm SGT</p>
+                            <strong>Corporate office hours</strong>
+                            <p class="m-0">Mon - Fri, 9.30 am - 6 pm SGT (excluding public holidays).</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-map"></i>
+                            <strong>Corporate office</strong>
+                            <p class="m-0">OUE Downtown 2, 6 Shenton Way, #12-11B, Singapore 068809 </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion" id="accordionFooter">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Contact Us
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFooter">
+                        <div class="accordion-body">
+                            <ul class="footerMenu">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Therapists</a></li>
+                                <li><a href="#">Psychologists</a></li>
+                                <li><a href="#">Coaches</a></li>
+                                <li><a href="#">issues</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">EAP</a></li>
+                                <li><a href="#">Anger management</a></li>
+                                <li><a href="#">Depression counselling</a></li>
+                                <li><a href="#">Grief counselling</a></li>
+                                <li><a href="#">Marriage counselling</a></li>
+                                <li><a href="#">Couples counselling</a></li>
+                                <li><a href="#">Crisis resources</a></li>
+                                <li><a href="#">Our blog </a></li>
+                                <li><a href="#">Join us</a></li>
+                                <li><a href="#">Upcoming events</a></li>
+                                <li><a href="#">Previous events</a></li>
+                                <li><a href="#">Crisis resources</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Quick Links
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFooter">
+                        <div class="accordion-body">
+                            <ul class="listContactDetail">
+                                <li>
+                                    <i class="fas fa-envelope-open"></i>
+                                    <a href="#">contact@talkyourheartout.com</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a href="#">+65 6502 2840 / 9831 0005 </a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <strong>Counselling hours</strong>
+                                    <p>Mon - Sun, 7.00 am - 11.00 pm SGT</p>
+                                    <strong>Corporate office hours</strong>
+                                    <p class="m-0">Mon - Fri, 9.30 am - 6 pm SGT (excluding public holidays).</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map"></i>
+                                    <strong>Corporate office</strong>
+                                    <p class="m-0">OUE Downtown 2, 6 Shenton Way, #12-11B, Singapore 068809 </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxCopyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="m-0">© 2021 Talk Your Heart Out Pte Ltd</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p class="m-0">Designed with <i class="fas fa-heart"></i> at <a href="https://alfyi.com/" target="_blank">alfyi.com</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Code End -->
+
+</body>
+
+
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.min.js"></script>
+
+<script type="text/javascript" language="javascript" src="assets/js/slick.min.js"></script>
+<script type="text/javascript" language="javascript" src="assets/js/bootstrap-filestyle.min.js"></script>
+<script type="text/javascript" language="javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function() {
+
+        // $('.timerAnimation  li:nth-child(' + 3 + ')').addClass("active-clicked");
+        // $('.form-check-input#someTime').prop('checked', true);
+
+        var totalScore=0;
+        const scoreArray = new Array(10);
+        for (let i = 0; i < scoreArray.length; i++) {
+            scoreArray[i] = 0;
+        }
+
+        $('.selectTime#one li').on("click", function(event) { 
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score1 = CalculateScore(myindex);
+                scoreArray[0] = score1;
+                updateScoreDisplay();
+
+            $(this).find('.form-check-input').prop('checked', false);   
+            $(".timerAnimation#one li").removeClass("active-clicked");       
+            $('.timerAnimation#one  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#two li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+               if(myindex === 5){
+                var nextDefault= CalculateScore(myindex);
+                scoreArray[2] = nextDefault;
+                $('.timerAnimation#three  li:nth-child(' + myindex + ')').addClass("active-clicked");   
+                $('.selectTime#three li .form-check-input').prop('checked', false);             
+                $('.selectTime#three li .form-check-input#noneTime3').prop('checked', true); 
+
+               }               
+                var score2 = CalculateScore(myindex);
+                scoreArray[1] = score2;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#two li").removeClass("active-clicked");       
+            $('.timerAnimation#two  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#three li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score3 = CalculateScore(myindex);
+                scoreArray[2] = score3;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#three li").removeClass("active-clicked");       
+            $('.timerAnimation#three  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#four li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score4 = CalculateScore(myindex);
+                scoreArray[3] = score4;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#four li").removeClass("active-clicked");       
+            $('.timerAnimation#four  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#five li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+
+                if(myindex === 5){
+                var nextDefault2= CalculateScore(myindex);
+                scoreArray[5] = nextDefault2;
+                $('.timerAnimation#six  li:nth-child(' + myindex + ')').addClass("active-clicked");  
+                $('.selectTime#six li .form-check-input').prop('checked', false);             
+                $('.selectTime#six li .form-check-input#noneTime6').prop('checked', true); 
+
+               }  
+                var score5 = CalculateScore(myindex);
+                scoreArray[4] = score5;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#five li").removeClass("active-clicked");       
+            $('.timerAnimation#five  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#six li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score6 = CalculateScore(myindex);
+                scoreArray[5] = score6;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#six li").removeClass("active-clicked");       
+            $('.timerAnimation#six  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#seven li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score7 = CalculateScore(myindex);
+                scoreArray[6] = score7;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#seven li").removeClass("active-clicked");       
+            $('.timerAnimation#seven  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#eight li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score8 = CalculateScore(myindex);
+                scoreArray[7] = score8;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#eight li").removeClass("active-clicked");       
+            $('.timerAnimation#eight  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#nine li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score9 = CalculateScore(myindex);
+                scoreArray[8] = score9;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#nine li").removeClass("active-clicked");       
+            $('.timerAnimation#nine  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.selectTime#ten li').on("click", function(event) {
+            var myindex = $(this).index();
+                myindex = myindex + 1;
+                var score10 = CalculateScore(myindex);
+                scoreArray[9] = score10;
+                updateScoreDisplay();
+            
+            $(this).find('.form-check-input').prop('checked', false);  
+            $(".timerAnimation#ten li").removeClass("active-clicked");       
+            $('.timerAnimation#ten  li:nth-child(' + myindex + ')').addClass("active-clicked");
+            $(this).find('.form-check-input').prop('checked', true); 
+      
+        });
+
+        $('.skipBth').on('click', function(event) {
+            event.preventDefault();
+            var id = $(this).attr('id');
+            if (id==0){
+                $('.slick-prev').show();
+            }else if (id=9){
+                $('.slick-next').hide();
+                $('.slick-prev').hide();
+            }
+
+            for (let i = 0; i < scoreArray.length; i++) {
+            if ((parseInt(id) === i)){
+                var scoreSkip = CalculateScore(3);
+                scoreArray[i] = scoreSkip;
+            }
+            updateScoreDisplay();
+            $('.maintimerAnimation').slick('slickNext'); 
+        }
+        });
+
+        var spIndex= 0;
+        function updatePrevButtonVisibility() {
+        if (spIndex === 0) {
+            $('.slick-prev').hide();
+         } else {
+             $('.slick-prev').show();
+        }
+
+        if (spIndex === 10){
+            $('.slick-next').hide();
+            $('.slick-prev').hide();
+        }
+    }
+
+        var sIndex= 0;
+        updatePrevButtonVisibility();
+        $('.slick-next, .slick-prev').on('click', function(event) {       
+
+        if ($(this).hasClass('slick-next')) {
+            if (sIndex=== 0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9){
+                for (let i = 0; i < scoreArray.length; i++) {
+                    if(sIndex===i && scoreArray[i] === 0){
+                        var scoreNext = CalculateScore(3);
+                        scoreArray[i] = scoreNext;
+                        updateScoreDisplay();
+                     }         
+                }
+                sIndex++; 
+                spIndex++;
+                updatePrevButtonVisibility();
+            } 
+        } else if ($(this).hasClass('slick-prev')) {
+                sIndex--;
+                spIndex--;
+     }
+    });
+        
+    function CalculateScore(index){
+            if(index===1){
+                return 5;
+            }else if (index===2){
+                return 4;
+            }else if (index===3){
+                return 3;
+            }else if (index===4){
+                return 2;
+            }else{
+                return 1;
+            }
+        }
+
+    function updateScoreDisplay() {
+        let sum = 0; 
+        for (let i = 0; i < scoreArray.length; i++) {
+            sum += scoreArray[i]; 
+        }
+        $('#totalScore').text(sum);
+
+        if(sum >=10 && sum <=15){
+            $('#showText').text("You may currently not be experiencing significant feelings of distress.")
+        }else if (sum >=16 && sum <=30){
+            $('#showText').text("You may be experiencing moderate symptoms of depression and/or anxiety. These symptoms may be causing some distress in your everyday life.")
+        }else if (sum >=31 && sum <=50){
+            $('#showText').text("You may be experiencing some form of depression and/or anxiety. We recommend that you see a psychologist or professional counsellor in order to alleviate distress in your everyday life.")
+        }else {
+            $('#showText').text("Score is not available now.")
+        }
+    }
+
+        $('.selectTime li').on("mouseenter", function(event) {
+            var myindex = $(this).index();
+            myindex = myindex + 1;
+            $('.timerAnimation li').removeClass("active");
+            $('.timerAnimation li:nth-child(' + myindex + ')').addClass("active");
+        })
+        $('.selectTime li').on("mouseleave", function(event) {
+            $('.timerAnimation li').removeClass("active");
+        })
+    
+    
+    });
+
+    function rangeSlide1(value) {
+        document.getElementById('option1').innerHTML = value;
+    }
+
+    function rangeSlide2(value) {
+        document.getElementById('option2').innerHTML = value;
+    }
+
+    function rangeSlide3(value) {
+        document.getElementById('option3').innerHTML = value;
+    }
+
+    function rangeSlide4(value) {
+        document.getElementById('option4').innerHTML = value;
+    }
+    $(function() {
+        $('.selectOccupation').on('change', function() {
+            var data = $(".selectOccupation option:selected").text();
+            if (data == "Other") {
+                $(".boxOccupationOther").addClass("show");
+            } else {
+                $(".boxOccupationOther").removeClass("show");
+                $(".boxOccupationOther input").val("");
+            }
+        })
+    });
+
+    $(function() {
+        $("input[name='supervision']").click(function() {
+            if ($("#supervisionYes").is(":checked")) {
+                $(".provideDetailsOne").show();
+            } else {
+                $(".provideDetailsOne").hide();
+            }
+        });
+        $("input[name='insurance']").click(function() {
+            if ($("#insuranceYes").is(":checked")) {
+                $(".insuranceDetail").show();
+            } else {
+                $(".insuranceDetail").hide();
+            }
+        });
+    });
+
+    $('.maintimerAnimation').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+         swipe: false
+
+    });
+
+
+    //$('.selectTime').slick({
+    // $(document).ready(function () {
+    //         $('.selectTime li').each(function () {
+    //             $(this).bind('mouseover', null, function () {
+    //                 var index = $('.selectTime li').index(this);
+    //                 console.log(index);
+    //             });
+
+    //         }, function () { });
+
+    //     });
+</script>
+
+
+</html>
